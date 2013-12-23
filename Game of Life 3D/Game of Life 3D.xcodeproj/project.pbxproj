@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4306C911830080500A34218 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4306C8F1830080500A34218 /* lodepng.cpp */; };
+		C4BD5647182CE9A100E6EFE5 /* BaseGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4BD5645182CE9A100E6EFE5 /* BaseGL.cpp */; };
+		C4C8D9DC182BF003003536B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C8D9DB182BF003003536B2 /* Cocoa.framework */; };
+		C4C8D9F4182BF003003536B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C8D9F3182BF003003536B2 /* Images.xcassets */; };
+		C4C8DA11182BF0CE003536B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C8DA0F182BF0CD003536B2 /* main.cpp */; };
+		C4C8DA13182BF283003536B2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C8DA12182BF283003536B2 /* OpenGL.framework */; };
+		C4C8DA15182BF29B003536B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C8DA14182BF29B003536B2 /* IOKit.framework */; };
+		C4C8DA18182BF309003536B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4C8DA16182BF309003536B2 /* InfoPlist.strings */; };
+		C4C8DA1C182BFFD3003536B2 /* data in Resources */ = {isa = PBXBuildFile; fileRef = C4C8DA1B182BFFD3003536B2 /* data */; };
+		C4E531C9182CE43A00DD2E3A /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4E531C7182CE43A00DD2E3A /* Grid.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4306C8F1830080500A34218 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lodepng.cpp; path = "Game of Life 3D/lodepng.cpp"; sourceTree = "<group>"; };
+		C4306C901830080500A34218 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lodepng.h; path = "Game of Life 3D/lodepng.h"; sourceTree = "<group>"; };
+		C48A0FBA186624FF0097A7A2 /* libiomp5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiomp5.dylib; path = ../../../opt/intel/composer_xe_2013_sp1.1.103/compiler/lib/libiomp5.dylib; sourceTree = "<group>"; };
+		C4BD5645182CE9A100E6EFE5 /* BaseGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGL.cpp; path = "Game of Life 3D/BaseGL.cpp"; sourceTree = "<group>"; };
+		C4BD5646182CE9A100E6EFE5 /* BaseGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseGL.h; path = "Game of Life 3D/BaseGL.h"; sourceTree = "<group>"; };
+		C4C8D9D8182BF003003536B2 /* Game of Life 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Life 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C8D9DB182BF003003536B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C4C8D9DE182BF003003536B2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C4C8D9DF182BF003003536B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C4C8D9E0182BF003003536B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4C8D9E3182BF003003536B2 /* Game of Life 3D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Game of Life 3D-Info.plist"; sourceTree = "<group>"; };
+		C4C8D9F3182BF003003536B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4C8D9FA182BF003003536B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4C8DA0F182BF0CD003536B2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Game of Life 3D/main.cpp"; sourceTree = "<group>"; };
+		C4C8DA12182BF283003536B2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C4C8DA14182BF29B003536B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C4C8DA17182BF309003536B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4C8DA1B182BFFD3003536B2 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
+		C4E531C7182CE43A00DD2E3A /* Grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Grid.cpp; path = "Game of Life 3D/Grid.cpp"; sourceTree = "<group>"; };
+		C4E531C8182CE43A00DD2E3A /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = "Game of Life 3D/Grid.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4C8D9D5182BF003003536B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8DA15182BF29B003536B2 /* IOKit.framework in Frameworks */,
+				C4C8DA13182BF283003536B2 /* OpenGL.framework in Frameworks */,
+				C4C8D9DC182BF003003536B2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4C8D9CF182BF003003536B2 = {
+			isa = PBXGroup;
+			children = (
+				C4306C8F1830080500A34218 /* lodepng.cpp */,
+				C4306C901830080500A34218 /* lodepng.h */,
+				C4C8DA1B182BFFD3003536B2 /* data */,
+				C4E531C7182CE43A00DD2E3A /* Grid.cpp */,
+				C4E531C8182CE43A00DD2E3A /* Grid.h */,
+				C4BD5645182CE9A100E6EFE5 /* BaseGL.cpp */,
+				C4BD5646182CE9A100E6EFE5 /* BaseGL.h */,
+				C4C8DA0F182BF0CD003536B2 /* main.cpp */,
+				C4C8D9E1182BF003003536B2 /* Game of Life 3D */,
+				C4C8D9DA182BF003003536B2 /* Frameworks */,
+				C4C8D9D9182BF003003536B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4C8D9D9182BF003003536B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8D9D8182BF003003536B2 /* Game of Life 3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C8D9DA182BF003003536B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48A0FBA186624FF0097A7A2 /* libiomp5.dylib */,
+				C4C8DA14182BF29B003536B2 /* IOKit.framework */,
+				C4C8DA12182BF283003536B2 /* OpenGL.framework */,
+				C4C8D9DB182BF003003536B2 /* Cocoa.framework */,
+				C4C8D9FA182BF003003536B2 /* XCTest.framework */,
+				C4C8D9DD182BF003003536B2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4C8D9DD182BF003003536B2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8D9DE182BF003003536B2 /* AppKit.framework */,
+				C4C8D9DF182BF003003536B2 /* CoreData.framework */,
+				C4C8D9E0182BF003003536B2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C4C8D9E1182BF003003536B2 /* Game of Life 3D */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8DA16182BF309003536B2 /* InfoPlist.strings */,
+				C4C8D9F3182BF003003536B2 /* Images.xcassets */,
+				C4C8D9E3182BF003003536B2 /* Game of Life 3D-Info.plist */,
+			);
+			path = "Game of Life 3D";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4C8D9D7182BF003003536B2 /* Game of Life 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C8DA09182BF003003536B2 /* Build configuration list for PBXNativeTarget "Game of Life 3D" */;
+			buildPhases = (
+				C4C8D9D4182BF003003536B2 /* Sources */,
+				C4C8D9D5182BF003003536B2 /* Frameworks */,
+				C4C8D9D6182BF003003536B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Life 3D";
+			productName = "Game of Life 3D";
+			productReference = C4C8D9D8182BF003003536B2 /* Game of Life 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4C8D9D0182BF003003536B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ha;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hajo Nils Krabbenhöft";
+			};
+			buildConfigurationList = C4C8D9D3182BF003003536B2 /* Build configuration list for PBXProject "Game of Life 3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4C8D9CF182BF003003536B2;
+			productRefGroup = C4C8D9D9182BF003003536B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4C8D9D7182BF003003536B2 /* Game of Life 3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4C8D9D6182BF003003536B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8D9F4182BF003003536B2 /* Images.xcassets in Resources */,
+				C4C8DA1C182BFFD3003536B2 /* data in Resources */,
+				C4C8DA18182BF309003536B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4C8D9D4182BF003003536B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8DA11182BF0CE003536B2 /* main.cpp in Sources */,
+				C4306C911830080500A34218 /* lodepng.cpp in Sources */,
+				C4E531C9182CE43A00DD2E3A /* Grid.cpp in Sources */,
+				C4BD5647182CE9A100E6EFE5 /* BaseGL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4C8DA16182BF309003536B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C8DA17182BF309003536B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4C8DA07182BF003003536B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4C8DA08182BF003003536B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4C8DA0A182BF003003536B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/gitosis/glew-1.10.0/include",
+					"/gitosis/glfw-3.0.3/include",
+					"/gitosis/gol3d-game/SOIL/src",
+				);
+				INFOPLIST_FILE = "Game of Life 3D/Game of Life 3D-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"/gitosis/glew-1.10.0/lib",
+					"/gitosis/glfw-3.0.3/src",
+					"/gitosis/gol3d-game/SOIL/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lglfw3",
+					"-lSOIL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4C8DA0B182BF003003536B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/gitosis/glew-1.10.0/include",
+					"/gitosis/glfw-3.0.3/include",
+					"/gitosis/gol3d-game/SOIL/src",
+				);
+				INFOPLIST_FILE = "Game of Life 3D/Game of Life 3D-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"/gitosis/glew-1.10.0/lib",
+					"/gitosis/glfw-3.0.3/src",
+					"/gitosis/gol3d-game/SOIL/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lglfw3",
+					"-lSOIL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4C8D9D3182BF003003536B2 /* Build configuration list for PBXProject "Game of Life 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8DA07182BF003003536B2 /* Debug */,
+				C4C8DA08182BF003003536B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C8DA09182BF003003536B2 /* Build configuration list for PBXNativeTarget "Game of Life 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8DA0A182BF003003536B2 /* Debug */,
+				C4C8DA0B182BF003003536B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4C8D9D0182BF003003536B2 /* Project object */;
+}
