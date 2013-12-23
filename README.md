@@ -40,3 +40,7 @@ Simulation Mode Shortcuts
 
 Please look at the images in the gliders folder.
 
+
+
+Happy christmas hacking ! :)
+
