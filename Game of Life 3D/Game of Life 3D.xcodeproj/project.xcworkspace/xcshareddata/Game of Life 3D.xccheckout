@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F5AE3F20-D438-40CD-9203-2B0CCA31BC87</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Game of Life 3D</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EB63BAC-083B-4F17-A78F-6767B0FD172F</key>
+		<string>https://github.com/fxtentacle/game-of-life-3d</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Game of Life 3D/Game of Life 3D.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EB63BAC-083B-4F17-A78F-6767B0FD172F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fxtentacle/game-of-life-3d</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EB63BAC-083B-4F17-A78F-6767B0FD172F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EB63BAC-083B-4F17-A78F-6767B0FD172F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gol3d-game_1e5f408e2511</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -4,6 +4,10 @@
 #define ATTRIBUTES_PER_VERTEX (3+3+3+3)
 // pos, 3xtex
 
+#ifdef WIN32
+typedef signed int int32_t;
+#endif
+
 class Grid {
 public:
     int32_t GRID_SIZE_X, GRID_SIZE_Y, GRID_SIZE_Z;

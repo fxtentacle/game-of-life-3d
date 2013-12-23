@@ -287,6 +287,7 @@
 					"/gitosis/glfw-3.0.3/src",
 					"/gitosis/gol3d-game/SOIL/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"-lGLEW",
 					"-lglfw3",
@@ -315,6 +316,7 @@
 					"/gitosis/glfw-3.0.3/src",
 					"/gitosis/gol3d-game/SOIL/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"-lGLEW",
 					"-lglfw3",

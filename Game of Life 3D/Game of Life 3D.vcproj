@@ -138,7 +138,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="glew32s.lib  glfw3.lib SOIL.lib opengl32.lib"
-				OutputFile="Z:\gol3d-game\gol3d.exe"
+				OutputFile="&quot;Z:\gol3d-game\bin\Game of Life 3D.exe&quot;"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="&quot;Z:\gol3d-game\SOIL\projects\VC9\Release&quot;;&quot;Z:\glew-1.10.0\lib&quot;;&quot;Z:\glfw-3.0.3\src\Release&quot;"
 				GenerateDebugInformation="true"
@@ -192,6 +192,14 @@
 			</File>
 			<File
 				RelativePath=".\Game of Life 3D\Grid.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Game of Life 3D\lodepng.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Game of Life 3D\lodepng.h"
 				>
 			</File>
 			<File
