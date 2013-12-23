@@ -1,6 +1,9 @@
 game-of-life-3d
 ===============
 
+[Binaries](https://github.com/fxtentacle/game-of-life-3d/releases/tag/v0.1)
+
+
 This is an extension of Cromwells Game of Life to 3D. You can edit the game field, you can edit the ruleset and you can watch the game itself. The rendering is based on OpenGL with SSAO to get more depth. The stereo rendering is suitable for frame-packed mode on my BENQ W710 3D beamer.
 
 Keyboard Shortcuts
